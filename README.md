@@ -1,11 +1,9 @@
-Decision_tree-CART-
-===================
+### Decision tree impelentation, *CART*
 
-Homework for Data Mining
+*   learn.csv - train set
+*   test.csv - test set
+*   users.csv - the full data
 
-learn.csv - обучающая выборка test.csv - тестовая выборка
+Run and test: `python3 Cart.py learn.csv users.csv`
 
-users.csv - общий набор данных
-
-обучить и протестировать: python Cart.py learn.csv userfilt.csv 
-кросс-валидация: python Cart.py cross-val users.csv
+Cross-validate: `python3 Cart.py cross-val users.csv`
